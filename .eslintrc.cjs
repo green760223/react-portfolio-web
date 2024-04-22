@@ -21,5 +21,6 @@ module.exports = {
     "no-unused-vars": "off",
     "react/no-unescaped-entities": "off",
     "react/no-unknown-property": "off",
+    "react-refresh/only-export-components": "off",
   },
 }
