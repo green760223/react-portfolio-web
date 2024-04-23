@@ -22,5 +22,6 @@ module.exports = {
     "react/no-unescaped-entities": "off",
     "react/no-unknown-property": "off",
     "react-refresh/only-export-components": "off",
+    "no-extra-semi": "off",
   },
 }
