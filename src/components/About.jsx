@@ -4,7 +4,6 @@ import { styles } from "../styles"
 import { services } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 import { SectionWrapper } from "../hoc"
-
 import PropTypes from "prop-types"
 
 const ServiceCard = ({ index, title, icon }) => {
