@@ -2,14 +2,13 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component"
-import { motion } from "framer-motion"
+import { color, motion } from "framer-motion"
 import { styles } from "../styles"
 import { experiences } from "../constants"
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motion"
 import "react-vertical-timeline-component/style.min.css"
 import PropTypes from "prop-types"
-import { div } from "three/examples/jsm/nodes/Nodes.js"
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -19,19 +18,16 @@ const ExperienceCard = ({ experience }) => {
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
-        <div className='flex justify-center items-center w-full h-full '>
+        <div className='flex justify-center items-center w-full h-full'>
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='h-[60%] w-[60%] object-contain'
+            className='h-[100%] w-[100%] object-contain rounded-full border-white'
           />
         </div>
       }>
       <div>
-        <h3 className='text-white text-[24px] font-bold'>
-          {" "}
-          {experience.title}
-        </h3>
+        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
         <p
           className='text-secondary text-[16px] font-semibold'
           style={{ margin: 0 }}>
