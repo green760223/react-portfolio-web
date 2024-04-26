@@ -92,10 +92,6 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "ThreeJS",
     icon: threejs,
   },
@@ -112,28 +108,17 @@ const technologies = [
     icon: splunk,
   },
   {
-    name: "MySQL",
-    icon: mysql,
-  },
-  {
     name: "PostgreSQL",
     icon: postgresql,
-  },
-  {
-    name: "AWS",
-    icon: aws,
   },
   {
     name: "Bootstrap",
     icon: bootstrap,
   },
+
   {
-    name: "Java",
-    icon: java,
-  },
-  {
-    name: "Sigfox",
-    icon: sigfox,
+    name: "MongoDB",
+    icon: mongodb,
   },
 ]
 
