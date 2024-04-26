@@ -4,6 +4,7 @@ import creator from "./creator.png"
 import mobile from "./mobile.png"
 import web from "./web.png"
 import github from "./github.png"
+import demo from "./demo.png"
 import menu from "./menu.svg"
 import close from "./close.svg"
 
@@ -30,9 +31,11 @@ import unr from "./company/unr.png"
 import iii from "./company/iii.png"
 import ncr from "./company/ncr.png"
 
-import carrent from "./carrent.png"
-import jobit from "./jobit.png"
-import tripguide from "./tripguide.png"
+import reactdashboard from "./reactdashboard.png"
+import todolist from "./todolist.png"
+import portfolio from "./portfolio.png"
+import legacy from "./legacy.png"
+import waterapp from "./waterapp.png"
 
 export {
   logo,
@@ -52,9 +55,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   unabiz,
   unr,
   iii,
@@ -67,4 +67,10 @@ export {
   bootstrap,
   java,
   sigfox,
+  demo,
+  reactdashboard,
+  todolist,
+  portfolio,
+  legacy,
+  waterapp,
 }

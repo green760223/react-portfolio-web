@@ -11,9 +11,11 @@ import {
   tailwind,
   mongodb,
   git,
-  carrent,
-  jobit,
-  tripguide,
+  reactdashboard,
+  todolist,
+  portfolio,
+  legacy,
+  waterapp,
   threejs,
   unabiz,
   unr,
@@ -65,11 +67,11 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML5",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS3",
     icon: css,
   },
   {
@@ -81,11 +83,11 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
+    name: "ReactJS",
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
+    name: "TailwindCSS",
     icon: tailwind,
   },
   {
@@ -93,11 +95,11 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "ThreeJS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
@@ -179,7 +181,7 @@ const experiences = [
     company_name: "Institute for Information Industry",
     icon: iii,
     iconBg: "#ffffff",
-    date: "Jan 2014 - Feb 2017",
+    date: "Jan 2014 - Jan 2017",
     points: [
       "Created 50+ RESTful APIs by Hibernate, Java Jersey API Framework, and tested using Swagger.",
       "Collaborated with team to design and develop systems, manage databases, and oversaw 3 IT projects.",
@@ -220,67 +222,185 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dashboard System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This React 18 and TypeScript project boosts backend systems, focusing on user authentication and performance optimization. It introduces advanced UI, theme customization, and data analytics, streamlining workflows and enhancing user interaction within web applications.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ant-design",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "zustand",
+        color: "orange-text-gradient",
       },
       {
         name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        color: "yellow-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: reactdashboard,
+    source_code_link: "https://github.com/green760223/react-dashboard-manager",
+    demo_link: "https://react-dashboard-manager.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio Landing Page",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This project uses React, Three.js, Tailwind CSS, and EmailJS, features advanced web development skills with 3D models, animations, and responsive design. It employs React Three Fiber and Framer Motion to showcasing dynamic user experiences.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "three-js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "email-js",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/green760223/react-portfolio-web",
+    demo_link: "https://react-portfolio-web.pages.dev/",
+  },
+  {
+    name: "Online To-Do List",
+    description:
+      "This enhanced React-based to-do list app now includes user registration and account management. It integrates with RESTful APIs, allowing secure user registration and personalized task management. Users can add, delete, edit, and mark tasks as completed.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "crud",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: todolist,
+    source_code_link: "https://github.com/green760223/react-todo-list",
+    demo_link: "https://react-todo-list-phi-wheat.vercel.app/",
+  },
+  {
+    name: "React Feedback App",
+    description:
+      "This React application is a user-friendly platform for managing user feedback on products or services. It features real-time updates, feedback tracking, and interactive dashboards, enhancing user engagement and improving service quality through actionable insights.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "json-server",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: todolist,
+    source_code_link: "https://github.com/green760223/react-todo-list",
+    demo_link: "https://react-todo-list-phi-wheat.vercel.app/",
+  },
+  {
+    name: "Company Landing Page",
+    description:
+      "This React application is a user-friendly platform for managing user feedback on products or services. It features real-time updates, feedback tracking, and interactive dashboards, enhancing user engagement and improving service quality through actionable insights.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "bootstrap",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "animation",
+        color: "yellow-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: legacy,
+    source_code_link:
+      "https://github.com/green760223/legacy-marketing-landing-page",
+    demo_link: "https://legacy-taiwan.com/",
+  },
+  {
+    name: "Drinking Water Spot App",
+    description:
+      "This React application is a user-friendly platform for managing user feedback on products or services. It features real-time updates, feedback tracking, and interactive dashboards, enhancing user engagement and improving service quality through actionable insights.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "android",
+        color: "green-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "hibernate",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: waterapp,
+    source_code_link: "https://github.com/green760223/WaterMapAndroidApp",
+    demo_link: "",
   },
 ]
 
