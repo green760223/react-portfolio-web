@@ -36,6 +36,7 @@ import todolist from "./todolist.png"
 import portfolio from "./portfolio.png"
 import legacy from "./legacy.png"
 import waterapp from "./waterapp.png"
+import feedback from "./feedback.png"
 
 export {
   logo,
@@ -73,4 +74,5 @@ export {
   portfolio,
   legacy,
   waterapp,
+  feedback,
 }
