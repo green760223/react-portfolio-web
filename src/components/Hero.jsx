@@ -5,6 +5,14 @@ import { ComputersCanvas } from "./canvas"
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
+      <div>
+        <p className='hidden'>
+          This work is based on "Gaming Desktop PC"
+          (https://sketchfab.com/3d-models/gaming-desktop-pc-d1d8282c9916438091f11aeb28787b66)
+          by Yolala1232 (https://sketchfab.com/Yolala1232) licensed under
+          CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+        </p>
+      </div>
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 `}>
         <div className='flex flex-col justify-center items-center mt-5'>

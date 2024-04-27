@@ -24,12 +24,8 @@ import {
   ncr,
   python,
   splunk,
-  mysql,
   postgresql,
-  aws,
   bootstrap,
-  java,
-  sigfox,
 } from "../assets"
 
 export const navLinks = [
