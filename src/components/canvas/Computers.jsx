@@ -5,8 +5,7 @@ import CanvasLoader from "../Loader"
 import PropTypes from "prop-types"
 
 const Computers = ({ isMobile }) => {
-  // const computer = useGLTF("./desktop_pc/scene.gltf")
-  const computer = useGLTF("./desktop_pc/scene-v1.glb")
+  const computer = useGLTF("./desktop_pc/scene.glb")
 
   return (
     <mesh>
