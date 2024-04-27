@@ -34,8 +34,9 @@ const Contact = () => {
 
     try {
       ReactGA.event({
-        category: "User",
-        action: "Sent a email",
+        category: "Email Submission",
+        action: "Submited email form",
+        label: "Contact",
       })
 
       await emailjs.send(

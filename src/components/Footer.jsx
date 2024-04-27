@@ -11,8 +11,8 @@ import ReactGA from "react-ga4"
 function Footer() {
   const handleTrackingClick = (platform) => (_event) => {
     ReactGA.event({
-      category: "User",
-      action: "Click",
+      category: "Link Clicked",
+      action: platform + " clicked",
       label: platform,
     })
   }
