@@ -11,6 +11,10 @@ import {
   StarsCanvas,
   Footer,
 } from "./components"
+import ReactGA from "react-ga4"
+
+const measurementId = "G-9QYD3X46W9"
+ReactGA.initialize(measurementId)
 
 function App() {
   return (

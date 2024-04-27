@@ -5,6 +5,7 @@ import { styles } from "../styles"
 import { EarthCanvas } from "./canvas"
 import { SectionWrapper } from "../hoc"
 import { slideIn } from "../utils/motion"
+import ReactGA from "react-ga4"
 
 const Contact = () => {
   const formRef = useRef()
@@ -32,6 +33,11 @@ const Contact = () => {
     setLoading(true)
 
     try {
+      ReactGA.event({
+        category: "User",
+        action: "Sent a email",
+      })
+
       await emailjs.send(
         "service_32bq30h",
         "template_71hyxes",
