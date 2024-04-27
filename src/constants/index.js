@@ -300,7 +300,7 @@ const projects = [
   {
     name: "React Feedback App",
     description:
-      "This React application is a user-friendly platform for managing user feedback on products or services. It features real-time updates, feedback tracking, and interactive dashboards, enhancing user engagement and improving service quality through actionable insights.",
+      "This web application is a user-friendly platform for managing user feedback on products or services. It features real-time updates and feedback tracking, enhancing user engagement and improving service quality.",
     tags: [
       {
         name: "react",
@@ -330,7 +330,7 @@ const projects = [
   {
     name: "Company Landing Page",
     description:
-      "This React application is a user-friendly platform for managing user feedback on products or services. It features real-time updates, feedback tracking, and interactive dashboards, enhancing user engagement and improving service quality through actionable insights.",
+      "This marketing company's website uses HTML, CSS, JavaScript, and Bootstrap for design and animations. It features a CMS, SEO optimization, and interactive forms for user engagement, showcasing their event planning and marketing services effectively.",
     tags: [
       {
         name: "html",
@@ -361,7 +361,7 @@ const projects = [
   {
     name: "Drinking Water Spot App",
     description:
-      "This React application is a user-friendly platform for managing user feedback on products or services. It features real-time updates, feedback tracking, and interactive dashboards, enhancing user engagement and improving service quality through actionable insights.",
+      "This Android app allowed users to mark free water points using GPS on smartphones, integrated REST APIs developed with Hibernate and the Java. It also utilized open geo-data from Open Street Map to enhance mapping functionality.",
     tags: [
       {
         name: "java",
