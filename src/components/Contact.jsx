@@ -23,6 +23,12 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+
+    if (!form.name || !form.email || !form.message) {
+      alert("Please fill in all fields.")
+      return
+    }
+
     setLoading(true)
 
     try {
@@ -95,6 +101,7 @@ const Contact = () => {
             <div className='items-center flex justify-center'>
               <button
                 type='submit'
+                disabled={loading || !form.name || !form.email || !form.message}
                 className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>
                 {loading ? "Sending..." : "Send"}
               </button>
