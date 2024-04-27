@@ -17,14 +17,17 @@ const ProjectCard = ({
   demo_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      initial='hidden'
+      animate='show'
+      variants={fadeIn("up", "spring", index * 1, 0.75)}>
       <Tilt
         optinos={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[300px] xl:w-[350px] w-full'>
+        className='bg-tertiary p-5 rounded-2xl sm:w-[280px] md:w-[300px] lg:w-[350px] w-full'>
         <div className='relative w-full h-[230px]'>
           <img
             src={image}
@@ -72,13 +75,15 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div initial='hidden' animate='show' variants={textVariant()}>
         <p className={styles.sectionSubText}>My Works</p>
         <h2 className={styles.sectionHeadText}>Project.</h2>
       </motion.div>
 
       <div className='w-full flex'>
         <motion.p
+          initial='hidden'
+          animate='show'
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
           These projects demonstrate my capabilities and expertise through
