@@ -9,7 +9,7 @@ import SectionWrapper from "../hoc/SectionWrapper"
 import ReactGA from "react-ga4"
 
 function Footer() {
-  const handleTrackingClick = (platform) => (_event) => {
+  const handleTrackingClick = (platform) => () => {
     ReactGA.event({
       category: "Link Clicked",
       action: platform + " clicked",
