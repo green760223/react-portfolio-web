@@ -121,6 +121,16 @@ const Contact = () => {
           className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
           <EarthCanvas />
         </motion.div>
+        <p className='hidden'>
+          This work is based on "Stylized planet" by cmzw, licensed under
+          CC-BY-4.0. Modifications were made to the original model.
+          <a href='https://sketchfab.com/3d-models/stylized-planet-789725db86f547fc9163b00f302c3e70'>
+            Original model
+          </a>
+          by <a href='https://sketchfab.com/cmzw'>cmzw</a>
+          licensed under{" "}
+          <a href='http://creativecommons.org/licenses/by/4.0/'>CC-BY-4.0</a>.
+        </p>
       </div>
     </>
   )
