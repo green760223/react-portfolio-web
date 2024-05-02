@@ -38,7 +38,7 @@ function Footer() {
             <FontAwesomeIcon icon={faGithub} size='xl' />
           </a>
           <a
-            href='https://drive.google.com/file/d/1hkkv7JvnJwWt3XVfQ1PSHgVf5J14gPvf/view?usp=drive_link'
+            href='https://drive.google.com/file/d/1zjgdDvD2tbDAgvsxu1acl1qFYZr_uU-q/view?usp=sharing'
             target='_blank'
             rel='noopener noreferrer'
             title='Personal resume'
