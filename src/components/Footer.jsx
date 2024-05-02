@@ -22,7 +22,7 @@ function Footer() {
       <footer className='flex flex-col justify-center items-center bg-primary text-white'>
         <div className='flex py-5 gap-10'>
           <a
-            href='https://www.linkedin.com/in/lawrence-chuang/'
+            href='https://www.linkedin.com/in/lawrencechuang/'
             target='_blank'
             rel='noopener noreferrer'
             title='My LinkedIn page'
