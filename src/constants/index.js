@@ -126,8 +126,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2023 - Present",
     points: [
-      "Develop web front-ends to enhance the user experience for customers of the Nevada System of Higher Education.",
-      "Boosts project quality by developing custom error handling with SQLAlchemy and Pydantic, adding 24 test cases using Python unittest, launching 8 new CRUD functionalities with PostgreSQL, and optimizing data and operations within CRUD modules, enhancing both performance and user experience.",
+      "Boosts code quality and user experience by implementing 24 unit tests, ensuring robust application functionality.",
+      "Augments system capabilities by integrating 8 CRUD functionalities via PostgreSQL, optimizing data operations.",
+      "Develops web applications to enhance user experience for Nevada System of Higher Education customers.",
     ],
   },
   {
