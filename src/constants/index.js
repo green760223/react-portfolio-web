@@ -124,7 +124,7 @@ const experiences = [
     company_name: "College of Engineering at the University of Nevada, Reno",
     icon: unr,
     iconBg: "#383E56",
-    date: "May 2023 - Present",
+    date: "May 2023 - May 2024",
     points: [
       "Boosts code quality and user experience by implementing 24 unit tests, ensuring robust application functionality.",
       "Augments system capabilities by integrating 8 CRUD functionalities via PostgreSQL, optimizing data operations.",
