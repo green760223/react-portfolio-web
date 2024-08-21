@@ -155,7 +155,7 @@ const experiences = [
     date: "Feb 2018 - May 2022",
     points: [
       "Built Splunk dashboards to monitor 1M+ devices and generated reports for projects status, saving 10 hours per week of manual reporting work.",
-      "Monitored 328 base stations by integrating Splunk and Slack to receive real-time alerts and provided 24/7 IoT connectivity services, resulting in a 90% reduction in manual monitoring work.",
+      "Monitored 328 base stations by integrating Splunk and Slack to receive real-time alerts and provided 24/7/365 IoT connectivity services, resulting in a 90% reduction in manual monitoring work.",
       "Developed Python scripts to automate tasks and produce insight reports, thus reducing manual work by 90%.",
       "Implemented an IoT solutions for 2 of the biggest security customers in Taiwan by integrated a Sigfox GPS tracker with Python Flask, MongoDB and LINE Message APIs.",
       "Delivered technical support to customers on cloud platform, hardware, and software issues, as well as product return material authorization (RMA), while successfully resolved over 900 support tickets through the help desk to maintain positive customer relationships.",
