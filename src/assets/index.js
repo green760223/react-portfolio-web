@@ -28,6 +28,7 @@ import unabiz from "./company/unabiz.webp"
 import unr from "./company/unr.webp"
 import iii from "./company/iii.webp"
 import ncr from "./company/ncr.webp"
+import tfg from "./company/tfg.webp"
 
 // project images
 import reactdashboard from "./reactdashboard.webp"
@@ -59,6 +60,7 @@ export {
   unr,
   iii,
   ncr,
+  tfg,
   python,
   splunk,
   postgresql,

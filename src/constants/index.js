@@ -22,6 +22,7 @@ import {
   unr,
   iii,
   ncr,
+  tfg,
   python,
   splunk,
   postgresql,
@@ -119,6 +120,21 @@ const technologies = [
 ]
 
 const experiences = [
+  {
+    title: "Software Engineer Intern",
+    company_name: "Tech For Good Inc.",
+    icon: tfg,
+    iconBg: "#383E56",
+    date: "July 2024 - Prensent",
+    points: [
+      "Refactor the Learning Management System tech stack from React/JavaScript/Material UI to React/TypeScript/Shadcn UI/Tailwind CSS, enhancing design consistency and user engagement.",
+      "Develop and refine Learning Management System login pages, delivering both static and dynamic demos that optimize user authentication processes.",
+      "Create and implement the main teacher and student dashboard, incorporating a collapsible sidebar menu, task overview, and subject categorization, improving overall navigation.",
+      "Design a customizable course page layout featuring advanced filtering, pagination, and column toggling, which enhances course management efficiency.",
+      "Implement a comprehensive “Page Not Found” strategy and establish router rules for incorrect URLs, minimizing error-related support requests.",
+      "Draft and iterate on teacher and student dashboard layouts, integrating team feedback to streamline development cycles.",
+    ],
+  },
   {
     title: "Student Full Stack Engineer",
     company_name: "College of Engineering at the University of Nevada, Reno",
