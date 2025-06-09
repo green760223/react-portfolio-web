@@ -35,10 +35,11 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a full stack engineer with experience in TypeScript, JavaScript,
-        React, Python, and Splunk. As a quick learner, I collaborate closely
-        with clients to create efficient, scalable, and user-friendly solutions
-        that address real-world problems. Let's connect and make it happen!
+        I'm an engineer with a background in web development, DevOps, IoT,
+        fintech, and open-source learning platforms. I enjoy turning complex
+        challenges into clean, reliable solutions using TypeScript, React,
+        Python, and AWS. Collaborating with diverse teams to build scalable,
+        impactful systems is what drives me!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
