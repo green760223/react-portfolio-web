@@ -29,6 +29,7 @@ import unr from "./company/unr.webp"
 import iii from "./company/iii.webp"
 import ncr from "./company/ncr.webp"
 import tfg from "./company/tfg.webp"
+import moodle from "./company/moodle.webp"
 
 // project images
 import reactdashboard from "./reactdashboard.webp"
@@ -57,6 +58,7 @@ export {
   typescript,
   threejs,
   unabiz,
+  moodle,
   unr,
   iii,
   ncr,

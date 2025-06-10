@@ -19,6 +19,7 @@ import {
   feedback,
   threejs,
   unabiz,
+  moodle,
   unr,
   iii,
   ncr,
@@ -58,7 +59,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Project Manager",
+    title: "DevOps Engineer",
     icon: creator,
   },
 ]
@@ -121,11 +122,27 @@ const technologies = [
 
 const experiences = [
   {
+    title: "DevOps Engineer",
+    company_name: "Moodle US",
+    icon: moodle,
+    iconBg: "#383E56",
+    date: "Nov 2024 - Prensent",
+    points: [
+      "Manage 40 enterprise-level system migrations with 99.9% uptime, supporting seamless transitions for 10,000+ users across educational institutions and corporate platforms.",
+      "Lead the Infrastructure Unification Project, consolidating Moonami-hosted sites into a standardized platform architecture to improve maintainability and reduce long-term operational overhead.",
+      "Build a scalable, cross-region RDS observability dashboard using AWS Lambda, CloudWatch, EventBridge, and Grafana Cloud, enabling 5-minute metric refresh intervals and reducing critical downtime by 30%",
+      "Optimize AWS resource utilization and automate DevOps workflows, cutting manual intervention by 30% and improving infrastructure scalability and efficiency",
+      "Collaborate with 5+ cross-functional teams to implement process improvements that accelerate deployments and reduce infrastructure management complexity.",
+      "Troubleshoot plugin and database compatibility issues, optimize the UHCP V2 migration framework, and ensure consistent functionality across 40 production environments",
+      "Identify and remediate critical system bugs, enhancing platform stability and enabling high-confidence migrations with minimal user disruption.",
+    ],
+  },
+  {
     title: "Software Engineer Intern",
     company_name: "Tech For Good Inc.",
     icon: tfg,
     iconBg: "#383E56",
-    date: "July 2024 - Prensent",
+    date: "July 2024 - Nov 2024",
     points: [
       "Refactor the Learning Management System tech stack from React/JavaScript/Material UI to React/TypeScript/Shadcn UI/Tailwind CSS, enhancing design consistency and user engagement.",
       "Develop and refine Learning Management System login pages, delivering both static and dynamic demos that optimize user authentication processes.",
