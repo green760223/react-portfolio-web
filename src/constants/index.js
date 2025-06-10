@@ -126,7 +126,7 @@ const experiences = [
     company_name: "Moodle US",
     icon: moodle,
     iconBg: "#383E56",
-    date: "Nov 2024 - Prensent",
+    date: "Nov 2024 - Present",
     points: [
       "Manage 40 enterprise-level system migrations with 99.9% uptime, supporting seamless transitions for 10,000+ users across educational institutions and corporate platforms.",
       "Lead the Infrastructure Unification Project, consolidating Moonami-hosted sites into a standardized platform architecture to improve maintainability and reduce long-term operational overhead.",
