@@ -123,7 +123,7 @@ const technologies = [
 const experiences = [
   {
     title: "DevOps Engineer",
-    company_name: "Moodle US",
+    company_name: "Moodle",
     icon: moodle,
     iconBg: "#383E56",
     date: "Nov 2024 - Present",
